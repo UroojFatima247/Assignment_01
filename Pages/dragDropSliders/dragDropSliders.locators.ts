@@ -1,5 +1,3 @@
-// Pages/DragDropSliders/DragDropSliders.locators.ts
-
 import { Page, Locator } from '@playwright/test';
 
 export class DragDropLocators {

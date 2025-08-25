@@ -1,5 +1,3 @@
-// Pages/JavaScriptAlerts/JavaScriptAlerts.locators.ts
-
 import { Page, Locator } from '@playwright/test';
 
 export class JavaScriptAlertLocators {

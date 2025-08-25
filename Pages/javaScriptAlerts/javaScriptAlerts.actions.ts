@@ -1,5 +1,3 @@
-// Pages/JavaScriptAlerts/JavaScriptAlerts.actions.ts
-
 import { Page } from '@playwright/test';
 import { JavaScriptAlertLocators } from './javaScriptAlerts.locators';
 

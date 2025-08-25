@@ -1,5 +1,3 @@
-// Pages/BootstrapListBox/BootstrapListBox.actions.ts
-
 import { Page } from '@playwright/test';
 import { BootstrapListBoxLocators } from './bootstrapListBox.locators';
 

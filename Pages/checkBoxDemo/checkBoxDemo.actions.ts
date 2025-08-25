@@ -25,7 +25,6 @@ export class checkBoxDemoActions {
     await expect(this.locators.checkedText).toBeVisible();
   }
 
-    // ✅ Verify all disabled checkboxes under "Disabled Checkbox Demo" section
   async verifyDisabledCheckboxes() {
   const count = await this.locators.disableCheckbox.count();
   for (let i = 0; i < count; i++) {

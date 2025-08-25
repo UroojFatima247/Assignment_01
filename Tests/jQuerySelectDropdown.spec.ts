@@ -1,6 +1,4 @@
 import { test, expect } from '@playwright/test';
-import { HomePageActions } from '../Pages/Home/homePage.actions';
-import { HomePageLocators } from '../Pages/Home/homePage.locators';
 
 import { JQueryDropdownActions } from '../Pages/jQuerySelectDropdown/jQuerySelectDropdown.actions';
 
@@ -14,13 +12,13 @@ test.describe('Drag & Drop Sliders - Functional Tests', () => {
 
   test('Dropdown Test 1: Select country with search', async () => {
     await dropDown.openCountryDropdown();
-    await dropDown.searchAndSelectCountry('Japan');
+    await dropDown.searchAndSelectCountry('South Africa');
     const selected = await dropDown.getSelectedCountry();
-    expect(selected?.trim()).toBe('Japan');
+    expect(selected?.trim()).toBe('South Africa');
   });
 
   test('Dropdown Test 2: Select multiple states with search', async () => {
-    const states = ['California', 'Alaska'];
+    const states = ['Hawaii', 'Alaska'];
     await dropDown.searchAndSelectMultipleStates(states);
     const selectedStates = await dropDown.getSelectedMultipleStates();
     expect(selectedStates).toEqual(expect.arrayContaining(states));

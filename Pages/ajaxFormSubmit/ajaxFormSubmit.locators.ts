@@ -1,5 +1,3 @@
-// Pages/AjaxFormSubmit/AjaxFormSubmit.locators.ts
-
 import { Page, Locator } from '@playwright/test';
 
 export class AjaxFormSubmitLocators {

@@ -18,7 +18,7 @@ test.describe('Bootstrap Dual List Box Tests', () => {
   });
 
   test('Move item to right and verify', async () => {
-    const item = 'Danville'; // make sure it's visible on the left side
+    const item = 'Danville'; 
 
     await listBox.selectLeftItemByName(item);
     await listBox.moveToRight();
@@ -28,7 +28,7 @@ test.describe('Bootstrap Dual List Box Tests', () => {
   });
 
   test('Move item to left and verify', async () => {
-    const item = 'Milan'; // make sure it's already in the right list
+    const item = 'Milan'; 
 
     await listBox.selectRightItemByName(item);
     await listBox.moveToLeft();

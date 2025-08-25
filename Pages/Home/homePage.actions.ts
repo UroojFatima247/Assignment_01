@@ -1,5 +1,3 @@
-// Pages/HomePage/homePage.actions.ts
-
 import { HomePageLocators } from './homePage.locators';
 
 export class HomePageActions {

@@ -1,6 +1,4 @@
 import { test, expect } from '@playwright/test';
-import { HomePageLocators } from '../Pages/Home/homePage.locators';
-import { HomePageActions } from '../Pages/Home/homePage.actions';
 import { DragDropActions } from '../Pages/dragDropSliders/dragDropSliders.actions';
 
 test.describe('Drag & Drop Sliders', () => {
