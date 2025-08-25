@@ -39,21 +39,6 @@ The repository demonstrates core automation testing skills such as handling aler
 
 ---
 
-## 🏗️ Project Structure
-
-The project follows a **Page Object Model (POM)** structure for better readability and maintainability:
-
-📂 Selenium-Playground-Automation
-┣ 📂 tests/          # Test cases for each UI component
-┣ 📂 pages/          # Page classes with locators & methods
-┣ 📂 utils/          # Reusable helpers & config files
-┣ 📂 reports/        # Test execution reports/screenshots
-┣ 📄 package.json    # Dependencies & scripts
-┣ 📄 playwright.config.ts  # Playwright configuration
-┗ 📄 README.md       # Documentation
-
----
-
 ## ⚙️ Tools & Technologies
 
 - **Language:** TypeScript  
